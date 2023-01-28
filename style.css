@@ -1,0 +1,179 @@
+section {
+    padding: 100px 0;
+}
+
+.btn-color {
+    background-color: #e93b81;
+    color: white;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-color:hover {
+    background-color: #ce2f6e;
+    color: white;
+    border: 1px solid #ce2f6e;
+}
+
+#home {
+    background-image: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(images/hero_img.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.service-text {
+    text-align: center;
+}
+
+.service-text .line {
+    width: 120px;
+    height: 2px;
+    background-color: grey;
+    margin: 15px auto;
+}
+
+.icon-block {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #e93b81;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-block i {
+    font-size: 30px;
+}
+
+
+.portfolio-block {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-block img {
+    width: 100%;
+}
+
+.portfolio-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 36, 90, 0.8);
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    opacity: 0;
+}
+
+.portfolio-block:hover .portfolio-text {
+    opacity: 1;
+}
+
+.portfolio-block .portfolio-text,
+.portfolio-block img {
+    transition: 0.5s;
+}
+
+.portfolio-block:hover img {
+    transform: scale(1.1);
+}
+
+.feature .icon-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ce2f6e;
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-circle i {
+    color: white;
+}
+
+.team-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-icons {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background-color: #e93b81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.team-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.team-block:hover .team-icons{
+    bottom: 0;
+}
+
+.team-img img{
+    transition: 00.5s;
+}
+
+.team-block:hover img{
+    transform: translateY(-60px);
+}
+
+.team-icons a:hover{
+    background-color: white;
+    color: blue;
+}
+
+.team-block{
+    background-color:blue;
+    color: white;
+    text-align: center;
+}
+
+.team-block .line{
+    width: 60px;
+    height: 2px;
+    background-color: grey;
+    margin: 10px auto;
+}
+
+.team-odd{
+    background-color: rgba(4, 4, 161);
+    color: white;
+    text-align: center;
+}
